@@ -31,7 +31,9 @@
             ],
             "styles": [
               "src/css/theming.scss",
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/angular-bootstrap-md/assets/scss/bootstrap/bootstrap.scss",
+              "./node_modules/angular-bootstrap-md/assets/scss/mdb.scss"
             ],
             "scripts": []
           },
@@ -101,5 +103,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "4c6fa846-ea36-4b61-8bbb-18f2c4943442"
   }
 }
